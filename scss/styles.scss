@@ -1,0 +1,125 @@
+/* Block styles welcome */
+.welcome {
+	background: url("../images/fondo-bienvenidos.jpg");
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.fixed-top {
+	background: rgba(0, 0, 0, 0.60);
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-align: center;
+    margin: .3rem 0;
+    margin-left: .5rem;
+    padding: .8rem;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open>.nav-link {
+    color: #fff;
+    background: #f05f40;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background: #f05f40;
+}
+
+.text-welcome{
+	color: #fff;
+	margin-top: 10rem;
+}
+
+.btn-primary {
+    background-color: #f05f40;
+    border-color: #f04b28;
+    transition: all .5s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f04b28;
+    border-color: #f04b28;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 2px rgb(240, 95, 64);
+}
+
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Block styles about-us */
+.about-us{
+	color: #fff;
+	background: #f05f40;
+}
+
+/* Block styles service */
+.service .fa{
+	color: #f05f40;
+}
+
+.service h3{
+	font-weight: bold;
+}
+
+/* Block styles latest-projects */
+.latest-projects{
+	background: #424141;
+	color: #fff;
+}
+
+.latest-projects a{
+	display: block;
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+.latest-projects img{
+	transition: all .3s ease;
+}
+
+.latest-projects a:hover img{
+	transform: scale(1.5);
+}
+
+/* Block styles rights */
+.rights{
+	background: #222;
+	color: #fff;
+}
+
+/*START OF THE MEDIAS QUERIES*/
+
+@media (min-width: 768px) {
+	.welcome {
+		background: url("../images/fondo-bienvenidos-escritorio.jpg");
+		background-size: cover;
+	}
+}
